@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Using Shoulda With Rails 4 And Test Unit
 categories:
-- Software
+- Rails
 tags:
 - rails
 - rails-4

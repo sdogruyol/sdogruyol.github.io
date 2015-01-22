@@ -6,7 +6,7 @@ title: Rails 4 Heroku Deployment
 date: '2013-12-14 17:49:04 +0200'
 date_gmt: '2013-12-14 17:49:04 +0200'
 categories:
-- General
+- Rails
 tags:
 - heroku
 - rails

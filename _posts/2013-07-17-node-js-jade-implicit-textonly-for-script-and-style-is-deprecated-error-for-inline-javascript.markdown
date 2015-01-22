@@ -7,7 +7,7 @@ title: Node.js / Jade 'Implicit textOnly for script and style is deprecated.' er
 date: '2013-07-17 13:50:23 +0300'
 date_gmt: '2013-07-17 13:50:23 +0300'
 categories:
-- Software
+- Node.js
 tags:
 - express
 - jade

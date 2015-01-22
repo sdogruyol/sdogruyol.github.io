@@ -8,7 +8,7 @@ author_email: dogruyolserdar@gmail.com
 date: '2014-09-13 12:03:13 +0300'
 date_gmt: '2014-09-13 12:03:13 +0300'
 categories:
-- Uncategorized
+- Rails
 tags:
 - rails
 - rails-4

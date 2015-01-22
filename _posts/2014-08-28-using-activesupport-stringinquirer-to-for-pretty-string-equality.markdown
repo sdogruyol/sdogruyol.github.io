@@ -6,8 +6,11 @@ title: Using ActiveSupport StringInquirer for pretty String equality
 date: '2014-08-28 09:59:58 +0300'
 date_gmt: '2014-08-28 09:59:58 +0300'
 categories:
-- Uncategorized
-tags: []
+- Rails
+tags:
+- rails
+- activesupport
+- stringinquirer
 comments: []
 ---
 ActiveSupport is pretty awesome. It has really awesome stuff hidden in it.***StringInquirer*** is one of them.

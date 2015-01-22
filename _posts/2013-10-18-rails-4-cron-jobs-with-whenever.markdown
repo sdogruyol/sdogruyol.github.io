@@ -7,7 +7,7 @@ title: Rails 4 Cron Jobs With Whenever
 date: '2013-10-18 20:23:28 +0300'
 date_gmt: '2013-10-18 20:23:28 +0300'
 categories:
-- General
+- Rails
 tags:
 - cron
 - rails

@@ -7,7 +7,9 @@ date: '2013-09-25 20:37:36 +0300'
 date_gmt: '2013-09-25 20:37:36 +0300'
 categories:
 - General
-tags: []
+tags:
+- digitalocean
+- stop
 comments: []
 ---
 

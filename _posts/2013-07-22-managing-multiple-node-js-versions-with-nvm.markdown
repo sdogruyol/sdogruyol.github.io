@@ -6,7 +6,7 @@ title: Managing Multiple Node.js Versions With NVM
 date: '2013-07-22 10:18:47 +0300'
 date_gmt: '2013-07-22 10:18:47 +0300'
 categories:
-- Software
+- Node.js
 tags:
 - node.js
 - nvm
