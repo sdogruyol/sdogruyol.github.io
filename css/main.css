@@ -301,3 +301,9 @@ blockquote {
     .social { text-align:center; }
     .social li { display:block; width:100%; }
 }
+
+/*Disqus*/
+
+#disqus_thread {
+    padding: 20px;
+}
