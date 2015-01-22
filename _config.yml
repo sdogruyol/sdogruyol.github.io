@@ -1,13 +1,13 @@
-name: Minimal-Block
+name: Serdar Dogruyol
 description: Minimalistic, friendly, responsive.
-url: http://yoursite.com
+url: http://serdardogruyol.com
 markdown: redcarpet
 paginate: 8
 highlighter: pygments
 
 rss-feed-limit: 10
 
-disqus-id: sdogruyol
+disqus-id: serdardogruyol.com
 twitter: sdogruyol
 github: sdogruyol
 
