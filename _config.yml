@@ -1,5 +1,5 @@
 name: Serdar Dogruyol
-description: Minimalistic, friendly, responsive.
+description: Ruby, Rails and Software
 url: http://serdardogruyol.com
 markdown: redcarpet
 paginate: 8
@@ -7,7 +7,6 @@ highlighter: pygments
 
 rss-feed-limit: 10
 
-disqus-id: serdardogruyol.com
 twitter: sdogruyol
 github: sdogruyol
 
