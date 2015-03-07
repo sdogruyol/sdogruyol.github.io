@@ -30,7 +30,7 @@ Cuba is simple to use here's a 'Hello World' page
 	hello.ru
 
 ```ruby
-require 'cuba'
+ require 'cuba'
 	
 Cuba.define do	
   on get do
@@ -96,6 +96,8 @@ Now we dont need to specify a file for rackup to boot our application since we c
 Go to [http://localhost:9292/users.json](http://localhost:9292/users.json)
 
 That's it now we're serving our beloved 'users' as a JSON API :) Isn't it awesome ? 
+
+You can check the source code of the full sample on [Github](https://github.com/Sdogruyol/cuba-datamapper-sample).
 
 ***P.S***: To learn more about ***Cuba*** read the [Cuba Book](http://soveran.github.io/cuba/) and also be sure to check out [rack-protection](https://github.com/rkh/rack-protection) to secure your API.
 
