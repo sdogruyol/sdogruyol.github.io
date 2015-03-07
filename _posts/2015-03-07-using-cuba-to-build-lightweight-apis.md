@@ -27,7 +27,6 @@ That's exactly what Cuba is. It's a really lightweight microframework built upon
 
 Cuba is simple to use here's a 'Hello World' page 
 
----
 	hello.ru
 
 ```ruby
@@ -60,14 +59,14 @@ Actually serving JSON is also pretty easy with ***Cuba***
 
 Let's take our first example and modify it a little bit to serve our users as JSON. First of all let's create a ***config.ru*** file for our application so that rackup automatically boots up.
 
----
+
 	config.ru
 ```ruby
 require './api'
 
 run Cuba
 ```
----
+
 	api.rb
 ```ruby
 
