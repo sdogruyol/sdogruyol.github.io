@@ -93,7 +93,7 @@ Now we dont need to specify a file for rackup to boot our application since we c
 
 	rackup
 
-Go to [http://localhost:9292](http://localhost:9292/users.json)
+Go to [http://localhost:9292/users.json](http://localhost:9292/users.json)
 
 That's it now we're serving our beloved 'users' as a JSON API :) Isn't it awesome ? 
 
