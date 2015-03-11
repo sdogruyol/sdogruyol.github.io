@@ -11,3 +11,6 @@ twitter: sdogruyol
 github: sdogruyol
 
 permalink: /:title
+
+gems:
+  - jekyll-redirect-from

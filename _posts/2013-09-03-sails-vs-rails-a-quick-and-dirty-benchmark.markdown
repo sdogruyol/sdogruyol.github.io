@@ -11,6 +11,7 @@ tags:
 - node.js
 - sails.js
 - benchmark
+redirect_from: "/?p=111"
 comments: []
 ---
 
