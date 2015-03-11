@@ -14,4 +14,15 @@
     ga('create', 'UA-29702616-2', 'auto');
     ga('send', 'pageview');
 
+    var redirects = {
+        '?p=111': 'sails-vs-rails-a-quick-and-dirty-benchmark/'
+    };
+
+    (function () {
+        var s = document.location.search;
+        if (s in redirects) {
+            window.location.replace('/' + redirects[s]);
+        }
+    })();
+
 </script>
