@@ -12,7 +12,13 @@ tags:
 - api
 - json
 comments: []
+custom_js:
+- chartkick
 ---
+
+<script src="//www.google.com/jsapi" type="text/javascript"></script>
+<script src="/js/chartkick.js" type="text/javascript"></script>
+
 
 I've been itching to write this blog post for a while. Now that Rust is 1.0.0-beta
 the time has come.
@@ -23,7 +29,9 @@ to understand the concepts all the overwhelming feeling is gone and now i'm pret
 with Rust.
 
 As i'm experimenting with Rust i'd like to try something useful. Building a simple API and
-seeing how it performs against Ruby.
+seeing how it performs against Ruby. Our simple API will return a JSON response like
+
+	{"first_name": "Hello", "last_name": "World"}
 
 Let's get dirty :)
 
@@ -33,6 +41,8 @@ For both examples i don't want too much framework overhead that's why i'm gonna 
 
 * Rust: ***[nickel.rs](https://github.com/nickel-org/nickel.rs/)***
 * Ruby: ***[cuba](https://github.com/soveran/cuba)***
+	* Ruby: Thin
+	* JRuby: Puma
 
 First we gonna start with Rust
 
@@ -78,8 +88,8 @@ fn main() {
 	server.utilize(router! {
 			get "**" => |_req, _res| {
 				let person = Person{
-					first_name: "Serdar".to_string(),
-					last_name: "Dogruyol".to_string()
+					first_name: "Hello".to_string(),
+					last_name: "World".to_string()
 				};
 				person.to_json()
 			}
@@ -138,3 +148,33 @@ Like the Rust application open your browser and go to [http://localhost:9292](ht
 
 I've really wondered how Ruby is gonna perform against Rust and that's why benchmarked the
 apps using ***wrk***.
+
+#### 100 connections
+
+	wrk -c 100 http://localhost:9292
+
+<div id="chart-100" style="height: 300px;"></div>
+<script>
+  new Chartkick.BarChart("chart-100", [{name: "Request Per Second", data: [["Rust", 69486],["JRuby",13498],["MRI",1549]]}, {name: "Timeout", data: [["MRI", 0],["JRuby", 252],["Rust",271]]}], {max: 100000});
+</script>
+
+#### 1000 connections
+
+	wrk -c 1000 http://localhost:9292
+
+<div id="chart-1000" style="height: 300px;"></div>
+<script>
+  new Chartkick.BarChart("chart-1000", [{name: "Request Per Second", data: [["Rust", 63979],["JRuby",12195],["MRI",1523]]}, {name: "Timeout", data: [["MRI", 2013],["JRuby", 2410],["Rust",2982]]}], {max: 100000});
+</script>
+
+## Conclusion
+
+First of all Rust is really really fast serving nearly ***70k*** RPS which is expected given that it's a compiled language with great performance.
+
+The most surprising thing is that JRuby is really fast when paired with Rack / Cuba serving nearly ***15k*** RPS which is a great accomplishment.
+
+Lastly MRI serves around ***1.5k*** RPS on both 100 and 1000 connections. I think the GIL is at fault here.
+
+So Rust or Ruby? Which one do you prefer?
+
+Happy hacking <3
