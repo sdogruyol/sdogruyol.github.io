@@ -16,10 +16,6 @@ custom_js:
 - chartkick
 ---
 
-<script src="//www.google.com/jsapi" type="text/javascript"></script>
-<script src="/js/chartkick.js" type="text/javascript"></script>
-
-
 I've been itching to write this blog post for a while. Now that Rust is 1.0.0-beta
 the time has come.
 
@@ -143,6 +139,9 @@ I'm not gonna go into the details of Ruby implementation since it's pretty easy.
 find the sample application at the links below.
 
 Like the Rust application open your browser and go to [http://localhost:9292](http://localhost:9292) to see it in action.
+
+<script src="//www.google.com/jsapi" type="text/javascript"></script>
+<script src="/js/chartkick.js" type="text/javascript"></script>
 
 ## Benchmarks
 
