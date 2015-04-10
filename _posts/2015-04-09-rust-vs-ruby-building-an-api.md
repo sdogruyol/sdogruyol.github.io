@@ -177,3 +177,5 @@ Lastly MRI serves around ***1.5k*** RPS on both 100 and 1000 connections. I thin
 So Rust or Ruby? Which one do you prefer?
 
 Happy hacking <3
+
+***P.S:*** You can find the sample apps on [Github](https://github.com/Sdogruyol/rust-vs-ruby)
