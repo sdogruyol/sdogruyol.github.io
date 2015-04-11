@@ -154,7 +154,7 @@ apps using ***wrk***.
 
 <div id="chart-100" style="height: 300px;"></div>
 <script>
-  new Chartkick.BarChart("chart-100", [{name: "Request Per Second", data: [["Rust", 69486],["JRuby",13498],["MRI",1549]]}, {name: "Timeout", data: [["MRI", 0],["JRuby", 252],["Rust",271]]}], {max: 100000});
+  new Chartkick.BarChart("chart-100", [{name: "Request Per Second", data: [["Rust", 69486],["JRuby",13498],["MRI",9483]]}, {name: "Timeout", data: [["MRI", 0],["JRuby", 252],["Rust",271]]}], {max: 100000});
 </script>
 
 #### 1000 connections
@@ -163,7 +163,7 @@ apps using ***wrk***.
 
 <div id="chart-1000" style="height: 300px;"></div>
 <script>
-  new Chartkick.BarChart("chart-1000", [{name: "Request Per Second", data: [["Rust", 63979],["JRuby",12195],["MRI",1523]]}, {name: "Timeout", data: [["MRI", 2013],["JRuby", 2410],["Rust",2982]]}], {max: 100000});
+  new Chartkick.BarChart("chart-1000", [{name: "Request Per Second", data: [["Rust", 63979],["JRuby",12195],["MRI",8913]]}, {name: "Timeout", data: [["MRI", 3314],["JRuby", 2410],["Rust",2982]]}], {max: 100000});
 </script>
 
 ## Conclusion
