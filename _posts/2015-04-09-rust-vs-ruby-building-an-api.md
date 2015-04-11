@@ -180,4 +180,4 @@ Happy hacking <3
 
 ***P.S:*** You can find the sample apps on [Github](https://github.com/Sdogruyol/rust-vs-ruby)
 
-***Update:***  I've reproduce the Ruby benchmarks with RACK_ENV=production variable and saw more than ***5x*** performance increase.
+***Update:***  I've reproduced the Ruby benchmarks with RACK_ENV=production variable and saw more than ***5x*** performance increase.
