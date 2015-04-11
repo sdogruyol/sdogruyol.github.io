@@ -154,7 +154,7 @@ apps using ***wrk***.
 
 <div id="chart-100" style="height: 300px;"></div>
 <script>
-  new Chartkick.BarChart("chart-100", [{name: "Request Per Second", data: [["Rust", 69486],["JRuby",13498],["MRI",9483]]}, {name: "Timeout", data: [["MRI", 0],["JRuby", 252],["Rust",271]]}], {max: 100000});
+  new Chartkick.BarChart("chart-100", [{name: "Request Per Second", data: [["Rust", 69486],["JRuby",27441],["MRI",9483]]}, {name: "Timeout", data: [["MRI", 0],["JRuby", 252],["Rust",271]]}], {max: 100000});
 </script>
 
 #### 1000 connections
@@ -163,7 +163,7 @@ apps using ***wrk***.
 
 <div id="chart-1000" style="height: 300px;"></div>
 <script>
-  new Chartkick.BarChart("chart-1000", [{name: "Request Per Second", data: [["Rust", 63979],["JRuby",12195],["MRI",8913]]}, {name: "Timeout", data: [["MRI", 3314],["JRuby", 2410],["Rust",2982]]}], {max: 100000});
+  new Chartkick.BarChart("chart-1000", [{name: "Request Per Second", data: [["Rust", 63979],["JRuby",26810],["MRI",8913]]}, {name: "Timeout", data: [["MRI", 3314],["JRuby", 2410],["Rust",2982]]}], {max: 100000});
 </script>
 
 ## Conclusion
@@ -172,10 +172,12 @@ First of all Rust is really really fast serving nearly ***70k*** RPS which is ex
 
 The most surprising thing is that JRuby is really fast when paired with Rack / Cuba serving nearly ***15k*** RPS which is a great accomplishment.
 
-Lastly MRI serves around ***1.5k*** RPS on both 100 and 1000 connections. I think the GIL is at fault here.
+Lastly MRI serves around ***9k*** RPS on both 100 and 1000 connections. I think the GIL is at fault here.
 
 So Rust or Ruby? Which one do you prefer?
 
 Happy hacking <3
 
 ***P.S:*** You can find the sample apps on [Github](https://github.com/Sdogruyol/rust-vs-ruby)
+
+***Update:***  I've reproduce the Ruby benchmarks with RACK_ENV=production variable and saw more than ***5x*** performance increase.
