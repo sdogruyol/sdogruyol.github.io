@@ -24,7 +24,7 @@ of that 'X'.
 In most of those the 'X' is Go, Rust, Elixir etc.. ***I hereby claim that:*** As a Rubyist that that 'X' should be nothing else than ***[Crystal](http://crystal-lang.org)***.
 
 You'd ask. Well Serdar:
-> Why Crystal?
+>Why Crystal?
 
 And i'd answer with something like:
 >Learning a language takes days but becoming proficient and productive enough takes years.
@@ -34,7 +34,7 @@ Crystal is %90 Ruby with
 - Similar syntax
 - Same idioms
 
-***Plus***
+***Plus**
 
 - Compiled
 - Native code
@@ -47,6 +47,7 @@ and much more.
 Let's start with an example
 
 `fib.rb`
+
 ```ruby
 def fibonacci(n)
   return n if n <= 1
@@ -70,12 +71,14 @@ crystal fib.rb
 Awesome. Let's take a look at the time taken.
 
 **Ruby**
+
 ```
 time ruby fib.rb
 ruby fib.rb  16.62s user 0.08s system 99% cpu 16.805 total
 ```
 
 **Crystal**
+
 ```
 time crystal fib.rb
 crystal fib.rb  0.85s user 0.18s system 118% cpu 0.870 total
@@ -84,6 +87,7 @@ crystal fib.rb  0.85s user 0.18s system 118% cpu 0.870 total
 Wow! That's pretty awesome. We practically did nothing and gained **20x** performance.
 
 But wait what if we turn on **[LLVM](http://llvm.org/)** optimizations
+
 ```
 crystal build --release fib.rb
 time ./fib
