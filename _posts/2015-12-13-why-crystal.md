@@ -5,10 +5,10 @@ published: true
 title: Why Crystal?
 date: '2015-12-13 13:42'
 tags:
-  - ruby
   - crystal
+  - ruby
+  - performance
   - api
-  - json
 ---
 
 **Spoiler**: This is an opinionated post about programming languages.
@@ -24,9 +24,11 @@ of that 'X'.
 In most of those the 'X' is Go, Rust, Elixir etc.. ***I hereby claim that:*** As a Rubyist that that 'X' should be nothing else than ***[Crystal](http://crystal-lang.org)***.
 
 You'd ask. Well Serdar:
+
 >Why Crystal?
 
 And i'd answer with something like:
+
 >Learning a language takes days but becoming proficient and productive enough takes years.
 
 Crystal is %90 Ruby with
@@ -34,7 +36,7 @@ Crystal is %90 Ruby with
 - Similar syntax
 - Same idioms
 
-***Plus**
+**Plus**
 
 - Compiled
 - Native code
