@@ -121,12 +121,10 @@ end
 
 but with a big performance difference :)
 
-`wrk -c 100 -d 20 http://localhost:3000`
+```wrk -c 100 -d 20 http://localhost:3000```
 
-| Framework | Request Per Second  | Avg. Response Time |
-| :------------ |:---------------:| -----:|
-| Kemal (Production)    | 64986 | 170μs  |
-| Sinatra (Thin)     | 2274        |   43.82ms |
+- Kemal (Production) - **64986 requests per second** with an average time of **170μs**
+- Sinatra (Thin) - **2274 requests per second** with an average time of **43.82ms**
 
 Currently Kemal is under development and is not yet feature complete but has the following
 
