@@ -145,7 +145,7 @@ Most of the standard library is complete and stable. It's not yet production-rea
 you can use Crystal today.
 
 A big thumbs up for Crystal is that it's written in Crystal. You can easily read the source
-code of **[Crystal](http://crystal-lang.org)**  and contribute back it by opening pull requests / issues.
+code of **[Crystal](https://github.com/manastech/crystal)**  and contribute back it by opening pull requests / issues.
 
 ## Community
 
