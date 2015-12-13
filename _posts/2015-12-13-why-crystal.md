@@ -149,7 +149,16 @@ you can use Crystal today.
 A big thumbs up for Crystal is that it's written in Crystal. You can easily read the source
 code of **[Crystal](http://crystal-lang.org)**  and contribute back it by opening pull requests / issues.
 
+## Community
+
 The community is really nice :) It follows the roots of **[MINASWAN](https://en.wikipedia.org/wiki/MINASWAN)** and currently
-has irc (#crystal-lang at freenode) and [a mailing group](https://groups.google.com/forum/?fromgroups#!forum/crystal-lang).
+has an irc channel (#crystal-lang on freenode) and [a mailing group](https://groups.google.com/forum/?fromgroups#!forum/crystal-lang).
+
+## Closing Thoughts
+
+If you're reading this far then i'm thankful for your time :) I really hope that you enjoy using **Crystal** soon. You can ask me any
+questions and reach me at [@sdogruyol](http://twitter.com/sdogruyol)
+
+Happy Crystaling <3
 
 **P.S:** You can support **Crystal** development with this [fundraiser](https://www.bountysource.com/teams/crystal-lang/fundraiser).
