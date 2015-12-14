@@ -101,7 +101,7 @@ run the generated native code in this case `./fib` and now we are nearly **25x**
 
 That's a really simple demonstration and a big reason of why that ***'X'*** should be ***Crystal***.
 
-As a web developer i was pretty curious to see how a web framework similar to **Sinatra** would benetif from this
+As a web developer i was pretty curious to see how a web framework similar to **Sinatra** would benefit from this
 performance. So i created **[Kemal](http://www.github.com/sdogruyol/kemal)**.
 
 ## Enter Kemal
