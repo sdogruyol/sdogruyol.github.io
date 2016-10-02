@@ -1,5 +1,4 @@
 ---
-
 status: publish
 published: true
 title: 'Rust vs Ruby: Building an API'

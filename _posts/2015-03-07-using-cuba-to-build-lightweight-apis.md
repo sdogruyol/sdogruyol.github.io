@@ -1,5 +1,4 @@
 ---
-layout: post
 status: publish
 published: true
 title: Using Cuba to Build Lightweight APIs
@@ -10,7 +9,7 @@ tags:
 - ruby
 - cuba
 - api
-comments: []
+
 ---
 
 Nowadays building an API is a really common task. If you're a Ruby developer chances are really high that you're already using Rails for an API.

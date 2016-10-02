@@ -1,5 +1,4 @@
 ---
-layout: post
 status: publish
 published: true
 title: Convert Hash Key to a Method
@@ -13,7 +12,7 @@ tags:
 - object
 - rails
 - ruby
-comments: []
+
 ---
 Consider you have a Hash like this or you got a method which returns as a result.
 

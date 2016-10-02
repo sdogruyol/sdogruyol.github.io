@@ -1,5 +1,4 @@
 ---
-layout: post
 status: publish
 published: true
 title: Using ActiveSupport StringInquirer for pretty String equality
@@ -11,7 +10,7 @@ tags:
 - rails
 - activesupport
 - stringinquirer
-comments: []
+
 ---
 ActiveSupport is pretty awesome. It has really awesome stuff hidden in it.***StringInquirer*** is one of them.
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 status: publish
 published: true
 title: Customize Rails Generators to Avoid Generating Unnecessary Files
@@ -11,7 +10,7 @@ tags:
 - rails
 - rails-4
 - generator
-comments: []
+
 ---
 As you may already know when you a generate a new resource, model or controller there are bunch of other files that are also being generated for you.
 Rails has a great way to customize the default generators as you wish. For example let's assume that we are creating an API for a mobile app. Let call this app <strong>sample_api</strong>
