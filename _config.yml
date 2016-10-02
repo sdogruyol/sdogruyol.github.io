@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "Serdar Doğruyol"
 title_separator          : "-"
 name                     : "Serdar Doğruyol"
-description              : "Lead @protelturkey, Rubyist, Crystal Evangelist and Polyglot, Author of Kemal http://kemalcr.com "
+description              : "Serdar Dogruyol's official blog. About Ruby, Crystal, Kemal, Open Source Software, Programming languages and other software development related topics."
 url                      : "http://serdardogruyol.com"
 words_per_minute         : 200
 comments:
@@ -75,7 +75,7 @@ analytics:
 author:
   name             : "Serdar Doğruyol"
   avatar           : "serdar.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Lead @protelturkey, Rubyist, Crystal Evangelist and Polyglot, Author of Kemal http://kemalcr.com"
   location         : "Istanbul"
   email            :
   uri              :
