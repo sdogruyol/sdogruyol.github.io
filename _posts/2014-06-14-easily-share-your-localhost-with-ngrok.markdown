@@ -1,5 +1,4 @@
 ---
-layout: post
 status: publish
 published: true
 title: Easily Share Your Localhost with Ngrok

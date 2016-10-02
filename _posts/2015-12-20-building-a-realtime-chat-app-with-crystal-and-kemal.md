@@ -1,5 +1,4 @@
 ---
-layout: post
 status: publish
 published: true
 title: Building a realtime Chat application with Crystal and Kemal

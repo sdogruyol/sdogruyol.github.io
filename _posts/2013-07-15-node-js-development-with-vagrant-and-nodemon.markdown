@@ -1,5 +1,4 @@
 ---
-layout: post
 status: publish
 published: true
 title: Node.js Development With Vagrant And Nodemon
@@ -12,7 +11,6 @@ tags:
 - nodemon
 - supervisor
 - vagrant
-comments: []
 ---
 <p>Today i've encountered a strange behaviour which makes Node development on a Vagrant box a bit struggling. The reason is that if you are using Nodemon on your Vagrant box to restart your process ( e.g your Express app ) on file changes sometimes it's not even detecting the changes correctly or taking too long.</p>
 <pre>nodemon -L app.js</pre>

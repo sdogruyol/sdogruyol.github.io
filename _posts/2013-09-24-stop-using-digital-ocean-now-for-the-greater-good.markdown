@@ -1,5 +1,4 @@
 ---
-layout: post
 status: publish
 published: true
 title: Stop using Digital Ocean Now! For the greater good !

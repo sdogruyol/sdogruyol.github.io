@@ -1,5 +1,4 @@
 ---
-layout: post
 status: publish
 published: true
 title: Using Shoulda With Rails 4 And Test Unit

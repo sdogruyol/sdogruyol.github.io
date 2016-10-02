@@ -1,5 +1,4 @@
 ---
-layout: post
 status: publish
 published: true
 title: Managing Multiple Node.js Versions With NVM

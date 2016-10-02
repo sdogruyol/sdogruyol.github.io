@@ -1,5 +1,4 @@
 ---
-layout: post
 status: publish
 published: true
 title: 'Stop Using Digital Ocean Now : The Aftermath'

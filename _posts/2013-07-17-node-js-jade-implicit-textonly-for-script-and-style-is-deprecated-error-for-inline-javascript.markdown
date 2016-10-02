@@ -1,5 +1,4 @@
 ---
-layout: post
 status: publish
 published: true
 title: Node.js / Jade 'Implicit textOnly for script and style is deprecated.' error

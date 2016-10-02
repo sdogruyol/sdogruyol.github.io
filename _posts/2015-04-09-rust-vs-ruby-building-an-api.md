@@ -1,5 +1,5 @@
 ---
-layout: post
+
 status: publish
 published: true
 title: 'Rust vs Ruby: Building an API'
@@ -11,7 +11,7 @@ tags:
 - rust
 - api
 - json
-comments: []
+
 custom_js:
 - chartkick
 ---
