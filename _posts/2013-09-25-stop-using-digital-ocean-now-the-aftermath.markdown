@@ -1,6 +1,4 @@
 ---
-status: publish
-published: true
 title: 'Stop Using Digital Ocean Now : The Aftermath'
 date: '2013-09-25 20:37:36 +0300'
 date_gmt: '2013-09-25 20:37:36 +0300'
@@ -9,7 +7,7 @@ categories:
 tags:
 - digitalocean
 - stop
-comments: []
+
 ---
 
 As you may already know my previous [Stop using Digital Ocean Now! For the greater good !](2013-09-24-stop-using-digital-ocean-now-for-the-greater-good) blog post which is about DO shutting down the account caused tremendous reaction.

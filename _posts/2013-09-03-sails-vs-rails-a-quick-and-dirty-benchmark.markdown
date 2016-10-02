@@ -1,6 +1,4 @@
 ---
-status: publish
-published: true
 title: 'Rails vs Sails : A Quick And Dirty Benchmark'
 date: '2013-09-03 12:03:13 +0300'
 categories:
@@ -11,7 +9,7 @@ tags:
 - sails.js
 - benchmark
 redirect_from: "/?p=111"
-comments: []
+
 ---
 
 As a developer who’s mostly involved in Ruby and JS ( Node ) development i’m pretty interested in what’s new / hot in those. I love Ruby and i really like using Rails and the convention over configuration motto. I also love Javascript ( especially CoffeeScript ) and use Node in small / medium sized apps in production. Even though Node is pretty fast and easy to start with it’s easy to get lost on the road and also really easy to make technical design mistakes due to both JS and Node ( Pyramid of Doom , Promise , Fiber e.g anyone? ).

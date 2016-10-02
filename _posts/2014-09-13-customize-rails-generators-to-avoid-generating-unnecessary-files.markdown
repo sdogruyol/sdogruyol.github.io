@@ -1,6 +1,4 @@
 ---
-status: publish
-published: true
 title: Customize Rails Generators to Avoid Generating Unnecessary Files
 date: '2014-09-13 12:03:13 +0300'
 date_gmt: '2014-09-13 12:03:13 +0300'

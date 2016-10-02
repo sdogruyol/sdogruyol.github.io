@@ -1,6 +1,4 @@
 ---
-status: publish
-published: true
 title: Convert Hash Key to a Method
 date: '2014-08-10 15:54:32 +0300'
 date_gmt: '2014-08-10 15:54:32 +0300'

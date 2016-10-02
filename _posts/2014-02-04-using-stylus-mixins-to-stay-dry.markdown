@@ -1,6 +1,4 @@
 ---
-status: publish
-published: true
 title: Using Stylus Mixins To Stay DRY!
 date: '2014-02-04 10:53:27 +0200'
 date_gmt: '2014-02-04 10:53:27 +0200'
@@ -9,7 +7,7 @@ categories:
 tags:
 - stylus
 - mixins
-comments: []
+
 ---
 I've been a long time Stylus user since i've started playing with Node.js . Until recently i started to understand the real power of Stylus with Mixins.
 Basically Mixins in Stylus are reusable code pieces and rulesets that can be applied to avoid code duplication. This leads to a cleaner and easier codebase to maintain.

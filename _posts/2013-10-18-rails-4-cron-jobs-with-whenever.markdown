@@ -1,6 +1,4 @@
 ---
-status: publish
-published: true
 title: Rails 4 Cron Jobs With Whenever
 
 date: '2013-10-18 20:23:28 +0300'
@@ -13,7 +11,7 @@ tags:
 - rails-4
 - ruby
 - whenever
-comments: []
+
 ---
 Cron jobs are really useful for recurring background jobs ( mailing, indexing etc.) .
 In Ruby / Rails world there are plenty of options for background proccessing but most of them are not that simple and easy to being with. However Whenever from Javan Makhmali is pretty simple and easy to use. But most of the tutorials and usage guidelines are outdate and for Rails 2.x - 3.x.

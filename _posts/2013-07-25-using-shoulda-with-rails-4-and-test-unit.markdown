@@ -1,6 +1,4 @@
 ---
-status: publish
-published: true
 title: Using Shoulda With Rails 4 And Test Unit
 categories:
 - Rails
@@ -10,7 +8,7 @@ tags:
 - ruby
 - shoulda
 - testunit
-comments: []
+
 ---
 If you are upgrading from a previous Rails version or want to use <a title="Shoulda" href="https://github.com/thoughtbot/shoulda" target="_blank">Shoulda</a> with Rails 4 and Test Unit the possibility that your Shoulda matchers won't work with your test is pretty high.
 In this case when you trying to run your tests it throws an error like below.

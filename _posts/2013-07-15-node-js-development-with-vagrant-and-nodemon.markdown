@@ -1,6 +1,4 @@
 ---
-status: publish
-published: true
 title: Node.js Development With Vagrant And Nodemon
 date: '2013-07-15 08:09:14 +0300'
 date_gmt: '2013-07-15 08:09:14 +0300'

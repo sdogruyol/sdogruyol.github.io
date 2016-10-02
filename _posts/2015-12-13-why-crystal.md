@@ -1,6 +1,4 @@
 ---
-status: publish
-published: true
 title: Why Crystal?
 date: '2015-12-13 13:42'
 tags:

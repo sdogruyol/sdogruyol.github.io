@@ -1,6 +1,4 @@
 ---
-status: publish
-published: true
 title: Managing Multiple Node.js Versions With NVM
 date: '2013-07-22 10:18:47 +0300'
 date_gmt: '2013-07-22 10:18:47 +0300'
@@ -11,7 +9,7 @@ tags:
 - nvm
 - rvm
 - version management
-comments: []
+
 ---
 <p>If you are coming from a Ruby background or at least have some experience with it. The possibility that you are already familiar with multiple version management is pretty high (yes, talking about RVM).</p>
 <p>Since Node.js is in very active development and getting releases pretty fast sometimes you may want to check if the version update breaks your dependencies or your application. But without having a version management tool for your Node.js installation it's pretty messy to upgrade and the vice versa. To avoid this and manage multiple different versions of Node.js installations NVM ( Node Version Manager) comes very handy.</p>

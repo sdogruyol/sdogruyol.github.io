@@ -1,6 +1,4 @@
 ---
-status: publish
-published: true
 title: Stop using Digital Ocean Now! For the greater good !
 date: '2013-09-24 15:47:41 +0300'
 date_gmt: '2013-09-24 15:47:41 +0300'
@@ -9,7 +7,7 @@ categories:
 tags:
 - digitalocean
 - stop
-comments: []
+
 ---
 As you all know [DigitalOcean](https://www.digitalocean.com/) is the new rage for cloud hosting. I've also been a DO customer for like 7-8 months. I told everybody about DO that they're awesome, they've ssds, they're ultra cheap and etc. Thanks to my advises a lot of people started using and trusting their business to DO like i do.
 However the truth about cheap servers all the one click distro bla bla is not so good. Starting this September things started to get ugly. First of all, the support which was really helpful and kind at the beginning has became much worse and somewhat hard to understand.

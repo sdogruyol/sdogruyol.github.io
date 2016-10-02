@@ -1,6 +1,4 @@
 ---
-status: publish
-published: true
 title: Node.js / Jade 'Implicit textOnly for script and style is deprecated.' error
   for inline Javascript
 date: '2013-07-17 13:50:23 +0300'

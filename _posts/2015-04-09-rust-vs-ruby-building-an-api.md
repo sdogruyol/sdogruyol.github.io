@@ -1,6 +1,4 @@
 ---
-status: publish
-published: true
 title: 'Rust vs Ruby: Building an API'
 date: '2015-04-09 22:49:13 +0300'
 categories:

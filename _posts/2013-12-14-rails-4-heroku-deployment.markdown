@@ -1,6 +1,4 @@
 ---
-status: publish
-published: true
 title: Rails 4 Heroku Deployment
 date: '2013-12-14 17:49:04 +0200'
 date_gmt: '2013-12-14 17:49:04 +0200'
@@ -11,7 +9,7 @@ tags:
 - rails
 - rails-4
 - ruby
-comments: []
+
 ---
 Deploying Rails 4 to Heroku can be tricky and have some nuances that you have to take care of. I've struggled around to find solutions to little stuff and lost hours to get my Rails 4 app working in Heroku.
 This guide is for people who want to deploy their Rails 4 app to Heroku without any waste of time.

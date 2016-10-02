@@ -1,6 +1,4 @@
 ---
-status: publish
-published: true
 title: Easily Share Your Localhost with Ngrok
 date: '2014-06-14 17:31:02 +0300'
 date_gmt: '2014-06-14 17:31:02 +0300'
@@ -8,7 +6,7 @@ categories:
 - Go
 tags:
 - ngrok
-comments: []
+
 ---
 Sometimes you want to show a prototype web application that is working on your computer to other people.
 

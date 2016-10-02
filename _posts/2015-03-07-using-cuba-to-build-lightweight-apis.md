@@ -1,6 +1,4 @@
 ---
-status: publish
-published: true
 title: Using Cuba to Build Lightweight APIs
 date: '2015-03-07 12:03:13 +0300'
 categories:

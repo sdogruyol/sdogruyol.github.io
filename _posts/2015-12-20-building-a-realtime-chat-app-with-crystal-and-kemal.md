@@ -1,6 +1,4 @@
 ---
-status: publish
-published: true
 title: Building a realtime Chat application with Crystal and Kemal
 date: '2015-12-20 16:27'
 tags:

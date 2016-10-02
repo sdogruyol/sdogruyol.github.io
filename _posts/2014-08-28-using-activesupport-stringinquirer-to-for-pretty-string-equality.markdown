@@ -1,6 +1,4 @@
 ---
-status: publish
-published: true
 title: Using ActiveSupport StringInquirer for pretty String equality
 date: '2014-08-28 09:59:58 +0300'
 date_gmt: '2014-08-28 09:59:58 +0300'
