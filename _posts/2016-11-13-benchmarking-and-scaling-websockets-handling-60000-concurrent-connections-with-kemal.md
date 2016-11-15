@@ -157,7 +157,9 @@ Congrats, now you have a distributed `Tsung` cluster.
 - `<load>` specifies our load configuration. In this case we are going with 1000 users per second up to 100000 users for 100 seconds.
 - `<session>` specifies your session scenario for each scenario. In this case we are going to open a ***WebSocket*** connection on `/` send a message with `{"name":"Kemal"}` body then hold the connection open for 1000 seconds(which is longer enough for our whole test).
 
-Now we know how Tsung works. Time to benchmark!
+Here is how our server cluster looks like.
+
+![Go change the world](/images/go_change_the_world.png)
 
 ## Benchmark
 
@@ -215,7 +217,7 @@ did the trick.
 
 ### Final results
 
-Now that the OS is not the bottleneck Tsun`
+Now that the OS is not the bottleneck Tsung
 servers pushed the limits again :)
 
 <blockquote class="twitter-tweet" data-lang="tr"><p lang="en" dir="ltr">Kemal handling 61189 concurrent WebSocket connections on a 2 GB server. This is not the limit but benchmarking is hard <a href="https://twitter.com/CrystalLanguage">@CrystalLanguage</a> <a href="https://t.co/y2GDow3J6e">pic.twitter.com/y2GDow3J6e</a></p>&mdash; Serdar Dogruyol セド (@sdogruyol) <a href="https://twitter.com/sdogruyol/status/797835943864573952">13 Kasım 2016</a></blockquote>
