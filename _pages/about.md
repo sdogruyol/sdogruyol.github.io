@@ -22,4 +22,4 @@ I'm *Open Source by default*, here are some of the open source projects I've cre
 - [fast-http-server](https://github.com/sdogruyol/fast-http-server)
 - [Crystal For Rubyists](https://github.com/sdogruyol/crystal_for_rubyists)
 
-you can check my Github profile for more projects: https://github.com/sdogruyol
+you can check my [Github](https://github.com/sdogruyol) profile for more
