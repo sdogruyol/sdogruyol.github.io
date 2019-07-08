@@ -28,6 +28,7 @@ you can check my [Github](https://github.com/sdogruyol) profile for more.
 
 I speak publicly at conferences to share my knowledge and promote open source software all around the world.
 
+- Detroit Tech Watch 2019 (Detroit, USA)
 - crystal.tokyo #9 (Tokyo, Japan)
 - Balkan Ruby 2018 (Sofia, Bulgaria)
 - Mobile Days 2018 (Ankara, Turkey)
@@ -41,5 +42,3 @@ I speak publicly at conferences to share my knowledge and promote open source so
 - Karabuk Programming Days 2015 (Karabuk, Turkey)
 - JSIst 2014 (Istanbul, Turkey)
 - Karabuk Programming Days 2014 (Karabuk, Turkey)
-
-(Istanbul, Turkey)
