@@ -11,7 +11,7 @@ title                    : "Serdar Doğruyol"
 title_separator          : "-"
 name                     : "Serdar Doğruyol"
 description              : "Serdar Dogruyol's official blog. About Ruby, Crystal, Kemal, Open Source Software, Programming languages and other software development related topics."
-url                      : "http://serdardogruyol.com"
+url                      : "https://serdardogruyol.com"
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
