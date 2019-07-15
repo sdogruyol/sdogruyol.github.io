@@ -20,6 +20,7 @@ I'm *Open Source by default*, here are some of the open source projects I've cre
 - [cryload](https://github.com/sdogruyol/cryload)
 - [tren](https://github.com/sdogruyol/tren)
 - [fast-http-server](https://github.com/sdogruyol/fast-http-server)
+- [aws](https://github.com/sdogruyol/aws
 - [Crystal For Rubyists](https://github.com/sdogruyol/crystal_for_rubyists)
 
 you can check my [Github](https://github.com/sdogruyol) profile for more.
