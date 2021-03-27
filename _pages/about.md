@@ -9,7 +9,7 @@ author_profile: true
 
 Hi,
 
-I'm Serdar Dogruyol a.k.a *Sedo*. I'm a core member of the [Crystal](https://crystal-lang.org/) programming language team and the creator of the [Kemal](http://kemalcr.com/) web framework.
+I'm Serdar Dogruyol a.k.a *Sedo*. I'm a core member of the [Crystal](https://crystal-lang.org/) programming language team and the author of the [Kemal](http://kemalcr.com/) web framework.
 
 My current main interests are Crystal (programming language), Self Development and Keynesian economics.
 
