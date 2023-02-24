@@ -1,7 +1,10 @@
 # main links links
 main:
+  - title: "Posts"
+    url: /
+  - title: "Talks"
+    url: /talks
+  - title: "Open Source"
+    url: /open_source
   - title: "About"
     url: /about
-
-  # - title: "Sample Navigation Link 2"
-  #   url: /
