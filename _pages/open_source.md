@@ -41,4 +41,4 @@ I'm a Crystal Core Team member since 2018.
 
 [fast-http-server](https://github.com/sdogruyol/fast-http-server) is a super fast, zero configuration command line HTTP Server.
 
-You can check more of my projects on my *[Github](https://github.com/sdogruyol)*
+You can check more of my projects on *[Github](https://github.com/sdogruyol)*

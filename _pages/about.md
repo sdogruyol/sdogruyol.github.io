@@ -13,4 +13,4 @@ I'm Serdar Dogruyol a.k.a *Sedo*. I'm a core member of the [Crystal](https://cry
 
 My current main interests are Crystal (programming language), Self Development and Macroeconomics.
 
-I'm *Open Source by default* and you can find me *[Github](https://github.com/sdogruyol)*
+I'm *Open Source by default* and you can find me on *[Github](https://github.com/sdogruyol)*
