@@ -34,6 +34,3 @@ Here’s a selection of some of my talks that I had presented on 3 different con
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ogmWQ8kGJw4" title="YouTube video player" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-### Kodla (Turkish) - Turkey, Trabzon
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LOAahRnsIpk" title="YouTube video player" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
