@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "Serdar Doğruyol"
 title_separator          : "-"
 name                     : "Serdar Doğruyol"
-description              : "Serdar Dogruyol's official blog. About Ruby, Crystal, Kemal, Open Source Software, Programming languages and other software development related topics."
+description              : "Serdar Doğruyol's official blog. About Ruby, Crystal, Kemal, Open Source Software, Programming languages and other software development related topics."
 url                      : "https://serdardogruyol.com"
 words_per_minute         : 200
 comments:
