@@ -1,7 +1,7 @@
 ---
 title: "Talks"
 layout: single
-excerpt: "International conference talks by Serdar Doğruyol — speaking about Crystal, Kemal, and open source across 3 continents."
+excerpt: "International conference talks by Serdar Doğruyol - speaking about Crystal, Kemal, and open source across 3 continents."
 sitemap: true
 permalink: /talks
 author_profile: true
@@ -13,7 +13,7 @@ I speak publicly at conferences to share knowledge and promote open source softw
 
 ### 🇺🇸 Crystal: A Language for Humans and Computers
 
-**Detroit Tech Watch** — Detroit, USA
+**Detroit Tech Watch** - Detroit, USA
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2ylgR8vTaPk" title="Crystal: A Language for Humans and Computers" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -21,7 +21,7 @@ I speak publicly at conferences to share knowledge and promote open source softw
 
 ### 🇯🇵 Crystalの未来 (The Future of Crystal)
 
-**crystal.tokyo** — Tokyo, Japan
+**crystal.tokyo** - Tokyo, Japan
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HRf-MJHwJTQ" title="Crystalの未来" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -29,7 +29,7 @@ I speak publicly at conferences to share knowledge and promote open source softw
 
 ### 🇧🇬 Crystal: A Language for Humans and Computers
 
-**Balkan Ruby** — Sofia, Bulgaria
+**Balkan Ruby** - Sofia, Bulgaria
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmkEGKacKeU" title="Crystal: A language for humans and computers" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -37,7 +37,7 @@ I speak publicly at conferences to share knowledge and promote open source softw
 
 ### 🇺🇦 Crystal and Kemal: Simply Fast
 
-**RubyC** — Kyiv, Ukraine
+**RubyC** - Kyiv, Ukraine
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OkM42UKhjsk" title="Crystal and Kemal: Simply Fast" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -45,7 +45,7 @@ I speak publicly at conferences to share knowledge and promote open source softw
 
 ### 🇵🇱 Kemal: Building Lightning Fast Web Applications with Simplicity
 
-**Polyconf** — Poznan, Poland
+**Polyconf** - Poznan, Poland
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KJB-nAoRSr8" title="Kemal: Building Lightning Fast Web Applications" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -53,7 +53,7 @@ I speak publicly at conferences to share knowledge and promote open source softw
 
 ### 🇹🇷 Crystal (in Turkish)
 
-**Webend** — Istanbul, Turkey
+**Webend** - Istanbul, Turkey
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ogmWQ8kGJw4" title="Crystal" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

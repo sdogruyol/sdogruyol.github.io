@@ -13,7 +13,7 @@ I started contributing to Open Source in 2013 and never stopped. Over the years 
 
 ### Kemal ⚡
 
-**[Kemal](https://kemalcr.com/)** — *Fast, Effective, Simple*
+**[Kemal](https://kemalcr.com/)** - *Fast, Effective, Simple Web Framework*
 
 The most popular web framework for Crystal. Built from scratch to combine Ruby's expressiveness with C-like performance. I'm the author and have been maintaining it since 2015.
 
@@ -27,11 +27,11 @@ The most popular web framework for Crystal. Built from scratch to combine Ruby's
 
 ### gcry ♻️
 
-**[gcry](https://github.com/sdogruyol/gcry)** — *Crystal's native garbage collector*
+**[gcry](https://github.com/sdogruyol/gcry)** - *Crystal's native garbage collector*
 
 My current main focus: a conservative mark-sweep garbage collector written entirely in Crystal. gcry aims to eliminate Crystal's dependency on the Boehm GC, giving developers better control over memory management with competitive throughput and RSS.
 
-- 📦 **Pure Crystal** implementation — no C extensions required
+- 📦 **Pure Crystal** implementation - no C extensions required
 - ⚡ **~89% of Boehm throughput** with ~0.95x RSS on Linux
 - 🔬 Built for **performance debugging** with built-in statistics
 
@@ -41,7 +41,7 @@ My current main focus: a conservative mark-sweep garbage collector written entir
 
 ### Crystal 💎
 
-**[Crystal](https://crystal-lang.org/)** — *Ruby-inspired, statically typed, compiled to native code*
+**[Crystal](https://crystal-lang.org/)** - *Ruby-inspired, statically typed, compiled to native code*
 
 I've been a **Core Team** member since 2018, one of only 14 members worldwide. I contribute to the language's design, standard library, and ecosystem growth.
 
@@ -49,7 +49,7 @@ I've been a **Core Team** member since 2018, one of only 14 members worldwide. I
 
 ### Crystal for Rubyists 📖
 
-**[Crystal for Rubyists](https://www.crystalforrubyists.com/)** — *Learn Crystal from a dynamic language perspective*
+**[Crystal for Rubyists](https://www.crystalforrubyists.com/)** - *Learn Crystal from a dynamic language perspective*
 
 A free book I wrote to help Ruby developers transition to Crystal. Covers syntax, type system, concurrency, macros, and practical examples.
 
@@ -57,9 +57,9 @@ A free book I wrote to help Ruby developers transition to Crystal. Covers syntax
 
 ### cryload 🏋️
 
-**[cryload](https://github.com/sdogruyol/cryload)** — *CI-first HTTP benchmarking tool*
+**[cryload](https://github.com/sdogruyol/cryload)** - *CI-first HTTP benchmarking tool*
 
-An HTTP load tester built in Crystal that's designed to fail your builds when performance regressions are detected — not just print pretty charts. Perfect for CI pipelines.
+An HTTP load tester built in Crystal that's designed to fail your builds when performance regressions are detected - not just print pretty charts. Perfect for CI pipelines.
 
 [View on GitHub →](https://github.com/sdogruyol/cryload)
 
@@ -67,9 +67,9 @@ An HTTP load tester built in Crystal that's designed to fail your builds when pe
 
 ### tren 🔗
 
-**[tren](https://github.com/sdogruyol/tren)** — *SQL as first-class methods*
+**[tren](https://github.com/sdogruyol/tren)** - *SQL as first-class methods*
 
-Tren lets you use your SQL as a first-class method in your Crystal application. No ORM overhead, no magic — just clean, composable database queries.
+Tren lets you use your SQL as a first-class method in your Crystal application. No ORM overhead, no magic - just clean, composable database queries.
 
 [View on GitHub →](https://github.com/sdogruyol/tren)
 
@@ -77,7 +77,7 @@ Tren lets you use your SQL as a first-class method in your Crystal application. 
 
 ### fast-http-server 🚀
 
-**[fast-http-server](https://github.com/sdogruyol/fast-http-server)** — *Zero-config HTTP server*
+**[fast-http-server](https://github.com/sdogruyol/fast-http-server)** - *Zero-config HTTP server*
 
 A super fast, zero configuration command line HTTP server written in Crystal. Great for development, file serving, and quick prototypes.
 

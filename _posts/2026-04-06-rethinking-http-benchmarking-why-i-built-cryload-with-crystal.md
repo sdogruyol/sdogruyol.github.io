@@ -11,7 +11,7 @@ tags:
 
 In the world of high-performance web services, knowing your limits is everything. Whether you are building a microservice in Go, a web app with [Kemal](https://kemalcr.com/) (Crystal's most popular web framework), or a high-throughput API in Rust, you eventually face the same question: How much load can this actually handle?
 
-While the ecosystem isn't short of benchmarking tools, I often found myself wanting something that combined the simplicity of ab (Apache Benchmark) with the raw, modern power of tools like wrk—all while leveraging the unique capabilities of the Crystal programming language.
+While the ecosystem isn't short of benchmarking tools, I often found myself wanting something that combined the simplicity of ab (Apache Benchmark) with the raw, modern power of tools like wrk, all while leveraging the unique capabilities of the Crystal programming language.
 
 That's why I built cryload.
 
