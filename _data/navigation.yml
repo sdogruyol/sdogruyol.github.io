@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Posts"
-    url: /
+    url: /posts
   - title: "Talks"
     url: /talks
   - title: "Open Source"

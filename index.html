@@ -1,14 +1,192 @@
 ---
 layout: archive
-author_profile: true
+author_profile: false
 ---
 
-{% include base_path %}
+<style>
+  .hero {
+    margin-bottom: 3.5em;
+    padding-top: 1em;
+  }
+  .hero__inscription {
+    font-size: 0.75rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 1em;
+    font-weight: 400;
+  }
+  .hero h1 {
+    font-size: 2.2rem;
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+    margin-top: 0;
+    color: #252a34;
+    font-weight: 700;
+    max-width: 700px;
+  }
+  .hero p {
+    font-size: 1.1rem;
+    line-height: 1.65;
+    color: #666;
+    max-width: 600px;
+    margin-bottom: 1.5rem;
+  }
+  .hero__cta {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: #2a7ae2;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s ease;
+  }
+  .hero__cta:hover {
+    border-bottom-color: #2a7ae2;
+  }
+  .hero__stats {
+    font-size: 0.9rem !important;
+    color: #888 !important;
+    margin-top: -0.5rem !important;
+    margin-bottom: 1.5rem !important;
+    font-weight: 500;
+  }
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+  .featured-post {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 2em 2em 1.75em;
+    margin-bottom: 3em;
+  }
+  .featured-post__meta {
+    font-size: 0.85rem;
+    color: #999;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .featured-post h2 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+  .featured-post h2 a {
+    color: #252a34;
+    text-decoration: none;
+  }
+  .featured-post h2 a:hover {
+    color: #2a7ae2;
+  }
+  .featured-post p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 0.975rem;
+    margin-bottom: 1em;
+  }
+  .featured-post__link {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #2a7ae2;
+    text-decoration: none;
+  }
+  .featured-post__link:hover {
+    text-decoration: underline;
+  }
 
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
+  .writing-section {
+    margin-bottom: 3em;
+  }
+  .writing-section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1em;
+    margin-top: 0;
+    color: #252a34;
+    font-weight: 700;
+  }
+  .writing-list {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .writing-list__item {
+    display: flex;
+    align-items: baseline;
+    gap: 1.5rem;
+    padding: 0.8em 0;
+    border-bottom: 1px solid #eee;
+  }
+  .writing-list__item:last-child {
+    border-bottom: none;
+  }
+  .writing-list__date {
+    font-size: 0.85rem;
+    color: #999;
+    white-space: nowrap;
+    min-width: 6em;
+  }
+  .writing-list__title {
+    font-size: 1rem;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  .writing-list__title:hover {
+    color: #2a7ae2;
+  }
 
-{% include paginator.html %}
+  @media (max-width: 600px) {
+    .hero h1 {
+      font-size: 1.5rem;
+    }
+    .hero p {
+      font-size: 1rem;
+    }
+    .writing-list__item {
+      flex-direction: column;
+      gap: 0.15rem;
+      padding: 0.6em 0;
+    }
+    .writing-list__date {
+      min-width: auto;
+    }
+    .featured-post {
+      padding: 1.5em 1.25em;
+    }
+    .featured-post h2 {
+      font-size: 1.2rem;
+    }
+  }
+</style>
+
+<div class="hero">
+  <div class="hero__inscription">{{ site.author.name | upcase }}</div>
+  <h1>{% assign bio_lines = site.author.bio | split: " · " %}{% for line in bio_lines %}{{ line }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</h1>
+  <p>I'm a software engineer, open source advocate, and Crystal Core Team member based in Istanbul. I create tools that make developers' lives better.</p>
+  <p class="hero__stats">5M+ downloads across open source projects</p>
+  <a href="{{ '/about' | relative_url }}" class="hero__cta">About me &rarr;</a>
+</div>
+
+{% assign featured = site.posts.first %}
+{% if featured %}
+<div class="featured-post">
+  <div class="featured-post__meta">{{ featured.date | date: "%B %d, %Y" }}</div>
+  <h2><a href="{{ featured.url | relative_url }}">{{ featured.title }}</a></h2>
+  <p>{{ featured.excerpt | strip_html | truncatewords: 45 }}</p>
+  <a href="{{ featured.url | relative_url }}" class="featured-post__link">Read post &rarr;</a>
+</div>
+{% endif %}
+
+<section class="writing-section">
+  <h2>Writing</h2>
+  <ul class="writing-list">
+    {% for post in site.posts offset:1 limit:5 %}
+    <li class="writing-list__item">
+      <span class="writing-list__date">{{ post.date | date: "%b %d, %Y" }}</span>
+      <a href="{{ post.url | relative_url }}" class="writing-list__title">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
