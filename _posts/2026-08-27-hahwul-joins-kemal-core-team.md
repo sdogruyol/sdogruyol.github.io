@@ -1,6 +1,6 @@
 ---
 title: 'HAHWUL joins the Kemal Core Team as Security Lead'
-date: '2026-08-27 19:00'
+date: '2026-08-27 03:00'
 tags:
   - crystal
   - kemal
