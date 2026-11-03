@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Why I Built iyi: 10 Years of Crystal, and the One Rule I Couldn't Add"
 subtitle: "A language that keeps Crystal's syntax and drops the rule that makes it slow."
 date: 2026-11-03 09:00:00 +0300
