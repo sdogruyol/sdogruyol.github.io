@@ -96,7 +96,7 @@ Three things came out of doing it for real.
 
 **The constraint improved the code.** Kemal's route blocks may return anything. The return type is `_`, and the result is coerced at runtime, on every request, forever. In iyi the handler's return type is a type parameter bounded by a trait, so the check happens at compile time and a user can make their own type returnable by implementing it. The rule forced a better design.
 
-**The macro loop was fine.** This was the biggest worry going in. Kemal generates its verb surface with `{% for method in HTTP_METHODS %}` over a module-local constant, emitting declarations into its own module. Legal under derive-scoped macros. Nothing to cache-bust.
+**The macro loop was fine.** This was the biggest worry going in. Kemal generates its verb surface with `{% raw %}{% for method in HTTP_METHODS %}{% endraw %}` over a module-local constant, emitting declarations into its own module. Legal under derive-scoped macros. Nothing to cache-bust.
 
 **The design needed one more feature.** Kemal defines `get`, `post`, `before_all` and `use` at the top level, which is exactly the same problem as an open class, and it is Kemal's entire identity. Making people write `kemal.get "/"` would be safe and would kill the framework. The fix was to move the decision to the consumer:
 
