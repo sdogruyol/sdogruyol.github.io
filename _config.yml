@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "Serdar Doğruyol"
 title_separator          : "-"
 name                     : "Serdar Doğruyol"
-description              : "Serdar Doğruyol's official blog. About Ruby, Crystal, Kemal, Open Source Software, Programming languages and other software development related topics."
+description              : "Serdar Doğruyol, creator of Kemal, the iyi programming language, and gcry. Crystal Core Team member writing about Crystal, Ruby, and open source."
 url                      : "https://serdardogruyol.com"
 words_per_minute         : 200
 comments:
@@ -66,6 +66,9 @@ social:
     - "https://kemalcr.com"
     - "https://iyi.dev"
     - "https://github.com/sdogruyol/gcry"
+    - "https://github.com/sdogruyol"
+    - "https://x.com/sdogruyol"
+    - "https://www.linkedin.com/in/serdardogruyol"
 
 # Analytics
 analytics:
@@ -79,7 +82,7 @@ analytics:
 author:
   name             : "Serdar Doğruyol"
   avatar           : "serdar.jpg"
-  bio              : "Crystal Core Team Member · Author of Kemal · Building gcry"
+  bio              : "Crystal Core Team Member · Creator of Kemal, iyi, and gcry"
   location         : "Istanbul"
   email            :
   uri              :

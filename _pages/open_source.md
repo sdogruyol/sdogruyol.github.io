@@ -1,7 +1,7 @@
 ---
 title: "Open Source"
 layout: single
-excerpt: "Open source projects by Serdar Doğruyol: Kemal (Crystal web framework), gcry (native GC for Crystal), Crystal language core team, Crystal for Rubyists book, cryload, tren, fast-http-server and more."
+excerpt: "Open source by Serdar Doğruyol: creator of Kemal, the iyi programming language, and gcry, plus Crystal core team work, Crystal for Rubyists, cryload, tren, and fast-http-server."
 sitemap: true
 permalink: /open_source
 author_profile: true
@@ -22,6 +22,17 @@ The most popular web framework for Crystal. Built from scratch to combine Ruby's
 - 🏗️ Powers hunders of production applications worldwide
 
 [View on GitHub →](https://github.com/sdogruyol/kemal)
+
+---
+
+### iyi 🪶
+
+**[iyi](https://iyi.dev)** - *A compiled language with Crystal's syntax*
+
+A programming language I created. It keeps Crystal's syntax and compiles each module against its dependencies' declarations, so an edit rebuilds only what that module needs.
+
+- Site: [iyi.dev](https://iyi.dev)
+- Source: [github.com/iyilang/iyi](https://github.com/iyilang/iyi)
 
 ---
 

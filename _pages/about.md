@@ -1,7 +1,7 @@
 ---
 title: "About"
 layout: single
-excerpt: "Serdar Doğruyol - Crystal Core Team member, author of the Kemal web framework, gcry creator. 15+ year software engineer and open source advocate."
+excerpt: "Serdar Doğruyol, creator of Kemal, the iyi programming language, and gcry. Crystal Core Team member and open source engineer in Istanbul."
 sitemap: true
 permalink: /about
 author_profile: true
@@ -10,6 +10,8 @@ author_profile: true
 ## Hi, I'm Serdar 👋
 
 I'm a software engineer, open source advocate, and one of only 14 **Crystal Core Team** members worldwide, based in Istanbul. My most well-known project is **[Kemal](https://kemalcr.com/)** - the most popular web framework in the Crystal ecosystem with the motto *"Fast, Effective, Simple"* - downloaded over 5 million times since 2015.
+
+I created **[iyi](https://iyi.dev)**, a compiled programming language that keeps Crystal's syntax and compiles a module against its dependencies' declarations rather than their bodies.
 
 My current main focus is **[gcry](https://github.com/sdogruyol/gcry)**, a native garbage collector for Crystal that I'm building from scratch. It aims to eliminate Crystal's dependency on the Boehm GC and make the language even stronger.
 
@@ -35,6 +37,7 @@ I started contributing to open source in 2013. Today I actively maintain 10+ pro
 | Project | Role | Description |
 |---------|------|-------------|
 | **[Kemal](https://kemalcr.com/)** | Creator & Maintainer | Crystal's leading web framework - 5M+ downloads |
+| **[iyi](https://iyi.dev)** | Creator | Compiled language with Crystal's syntax |
 | **[gcry](https://github.com/sdogruyol/gcry)** | Creator & Maintainer | Native conservative mark-sweep GC for Crystal |
 | **[Crystal](https://crystal-lang.org/)** | Core Team Member (since 2018) | Language-level contributions |
 | **[Crystal for Rubyists](https://www.crystalforrubyists.com/)** | Author | Free book teaching Crystal to Ruby developers |
@@ -63,7 +66,7 @@ I'm also the founder of **Ruby Türkiye** and **Crystal Türkiye** user groups.
 
 ### Current Interests
 
-- 💎 **Crystal & gcry** - Making Crystal an even better language
+- 💎 **Kemal, iyi, and gcry** - The framework, language, and garbage collector I build
 - 🤖 **AI & Open Source** - How AI impacts the OSS ecosystem and developer experience (DX)
 - 📈 **Macroeconomics** - Understanding economic systems
 - 🌱 **Self Development** - Continuous learning and growth

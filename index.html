@@ -1,6 +1,7 @@
 ---
 layout: archive
 author_profile: false
+seo_title: "Serdar Doğruyol - Creator of Kemal, iyi, and gcry"
 ---
 
 <style>
@@ -164,7 +165,7 @@ author_profile: false
 <div class="hero">
   <div class="hero__inscription">{{ site.author.name | upcase }}</div>
   <h1>{% assign bio_lines = site.author.bio | split: " · " %}{% for line in bio_lines %}{{ line }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</h1>
-  <p>I'm a software engineer, open source advocate, and Crystal Core Team member based in Istanbul. I create tools that make developers' lives better.</p>
+  <p>I'm a software engineer and Crystal Core Team member in Istanbul. I created <a href="https://kemalcr.com">Kemal</a>, the <a href="https://iyi.dev">iyi</a> programming language, and <a href="https://github.com/sdogruyol/gcry">gcry</a>.</p>
   <p class="hero__stats">5M+ downloads across open source projects</p>
   <a href="{{ '/about' | relative_url }}" class="hero__cta">About me &rarr;</a>
 </div>
